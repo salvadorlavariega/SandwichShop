@@ -8,5 +8,13 @@
     <string name="text_view_radio_button_wheat">Wheat</string>
     <string name="text_view_radio_button_white">White</string>
     <string name="text_view_radio_button_rye">Rye</string>
+    <string name="check_box_hearty_italian">Hearty Italian</string>
+    <string name="check_box_jalapeno_cheese">Jalapeno Chesse</string>
+    <string name="check_box_cheddar">Cheddar</string>
+    <string name="check_box_oregano">Oregano</string>
+    <string name="check_box_roasted_garlic">Roasted Garlic</string>
+    <string name="check_box_mozzarella">Mozarella</string>
+    <string name="check_box_spinach">Spinach</string>
+    <string name="check_box_tomatoes">Tomatoes</string>
 
 </resources>

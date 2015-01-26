@@ -28,16 +28,17 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.09">
+            android:layout_weight="0.09"
+            android:orientation="horizontal">
 
             <RadioButton
-                android:layout_width="wrap_content"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="@string/text_view_radio_button_wheat"
                 android:id="@+id/text_view_radio_button_wheat" />
 
             <RadioButton
-                android:layout_width="wrap_content"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="@string/text_view_radio_button_white"
                 android:id="@+id/text_view_radio_button_white" />
@@ -61,7 +62,7 @@
                 android:layout_height="wrap_content">
 
                 <CheckBox
-                    android:layout_width="150dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="@string/check_box_hearty_italian"
                     android:id="@+id/check_box_hearty_italian"
@@ -69,28 +70,41 @@
                     android:paddingRight="50dp" />
 
                 <CheckBox
-                    android:layout_width="wrap_content"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="@string/check_box_roasted_garlic"
                     android:id="@+id/check_box_roasted_garlic"
                     android:layout_gravity="top" />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
                 <CheckBox
-                    android:layout_width="150dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="@string/check_box_jalapeno_cheese"
                     android:id="@+id/check_box_jalapeno_cheese"
                     android:paddingRight="10dp" />
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
                 <CheckBox
-                    android:layout_width="wrap_content"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_box_cheddar"
+                    android:id="@+id/check_box_cheddar"
+                    android:paddingRight="65dp" />
+
+                <CheckBox
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_box_spinach"
+                    android:id="@+id/check_box_spinach" />
+
+                <CheckBox
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="@string/check_box_mozzarella"
                     android:id="@+id/check_box_mozzarella" />
@@ -102,33 +116,14 @@
                 android:layout_height="wrap_content">
 
                 <CheckBox
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/check_box_cheddar"
-                    android:id="@+id/check_box_cheddar"
-                    android:paddingRight="65dp" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/check_box_spinach"
-                    android:id="@+id/check_box_spinach" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <CheckBox
-                    android:layout_width="150dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="@string/check_box_oregano"
                     android:id="@+id/check_box_oregano"
                     android:paddingRight="65dp" />
 
                 <CheckBox
-                    android:layout_width="wrap_content"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="@string/check_box_tomatoes"
                     android:id="@+id/check_box_tomatoes" />
@@ -140,9 +135,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Button"
-            android:id="@+id/button2"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.03" />
+            android:id="@+id/button"
+            android:layout_weight="0.03"
+            android:layout_gravity="center_horizontal" />
 
 
     </LinearLayout>
