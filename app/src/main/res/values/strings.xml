@@ -4,5 +4,9 @@
     <string name="app_name">Sandwich Shop</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="text_view_title">Customize your sandwich</string>
+    <string name="text_view_radio_button_wheat">Wheat</string>
+    <string name="text_view_radio_button_white">White</string>
+    <string name="text_view_radio_button_rye">Rye</string>
 
 </resources>
