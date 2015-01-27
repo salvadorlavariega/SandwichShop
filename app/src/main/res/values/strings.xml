@@ -25,5 +25,7 @@
     <string name="button_ok">OK</string>
     <string name="text_view_label_orders_count">Sandwich orders total:</string>
     <string name="text_view_count_orders" />
+    <string name="edit_text_sandwich_count" />
+    <string name="edit_text_view_hint">Number of orders</string>
 
 </resources>

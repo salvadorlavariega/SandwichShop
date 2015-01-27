@@ -55,7 +55,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.03">
+            android:layout_weight="0.03"
+            android:weightSum="1">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -63,15 +64,15 @@
                 android:text="@string/text_view_label_orders_count"
                 android:id="@+id/text_view_label_orders_count"
                 android:gravity="center_vertical"
-                android:layout_weight="0.01" />
+                android:layout_weight="0.00" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/text_view_count_orders"
-                android:id="@+id/text_view_count_orders"
-                android:layout_weight="0.15" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_sandwich_count"
+                android:layout_weight="0.39"
+                android:hint="Number of orders" />
+
         </LinearLayout>
 
         <LinearLayout
