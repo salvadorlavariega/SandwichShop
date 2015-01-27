@@ -21,5 +21,7 @@
     <string name="text_view_order_description" />
     <string name="button_confirm">Confirm</string>
     <string name="button_cancel">Cancel</string>
+    <string name="text_view_order_confirmed">Your order has been confirmed.</string>
+    <string name="button_ok">OK</string>
 
 </resources>

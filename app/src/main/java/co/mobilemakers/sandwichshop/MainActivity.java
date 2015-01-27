@@ -29,6 +29,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        prepareCheckBoxes();
         prepareButtonPlaceOrder();
     }
 
@@ -54,7 +55,7 @@ public class MainActivity extends ActionBarActivity {
                 order+="A sanwich " +((RadioButton) findViewById(selectedId)).getText().toString().toUpperCase();
 
                 if(checkBoxHeartyItalian.isChecked()){
-                    toppings.add(  checkBoxHeartyItalian.getText().toString().toUpperCase() );
+                    toppings.add( checkBoxHeartyItalian.getText().toString().toUpperCase() );
                 }
                 if(checkBoxJalapeno.isChecked()){
                     toppings.add(  checkBoxJalapeno.getText().toString().toUpperCase() );
@@ -84,7 +85,7 @@ public class MainActivity extends ActionBarActivity {
                         toppingsOptions+=toppings.get(i);
                         if(toppings.size()>2)toppingsOptions+=", ";
                     }
-                    toppingsOptions+=" and "+toppings.get(toppings.size());
+                    toppingsOptions+=" and "+toppings.get(toppings.size()-1);
                 }
 
                 if(!toppingsOptions.isEmpty()){
