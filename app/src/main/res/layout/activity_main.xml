@@ -25,30 +25,60 @@
             android:gravity="center"
             android:textSize="35dp" />
 
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.09"
-            android:id="@+id/radio_group_bread">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="102dp"
+            android:weightSum="1">
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/text_view_radio_button_wheat"
-                android:id="@+id/text_view_radio_button_wheat" />
+            <RadioGroup
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:id="@+id/radio_group_bread"
+                android:layout_weight="0.00">
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/text_view_radio_button_white"
-                android:id="@+id/text_view_radio_button_white" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view_radio_button_wheat"
+                    android:id="@+id/text_view_radio_button_wheat" />
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/text_view_radio_button_rye"
-                android:id="@+id/text_view_radio_button_rye" />
-        </RadioGroup>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view_radio_button_white"
+                    android:id="@+id/text_view_radio_button_white" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view_radio_button_rye"
+                    android:id="@+id/text_view_radio_button_rye" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view_label_orders_count"
+                    android:id="@+id/text_view_label_orders_count"
+                    android:layout_weight="0.18" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/text_view_count_orders"
+                    android:id="@+id/text_view_count_orders"
+                    android:layout_weight="0.18"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"

@@ -23,5 +23,7 @@
     <string name="button_cancel">Cancel</string>
     <string name="text_view_order_confirmed">Your order has been confirmed.</string>
     <string name="button_ok">OK</string>
+    <string name="text_view_label_orders_count">Sandwich orders total:</string>
+    <string name="text_view_count_orders" />
 
 </resources>
