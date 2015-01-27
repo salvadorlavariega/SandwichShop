@@ -16,5 +16,10 @@
     <string name="check_box_mozzarella">Mozarella</string>
     <string name="check_box_spinach">Spinach</string>
     <string name="check_box_tomatoes">Tomatoes</string>
+    <string name="button_place_order">Place order</string>
+    <string name="text_view_label_confirm">Confirm your order:</string>
+    <string name="text_view_order_description" />
+    <string name="button_confirm">Confirm</string>
+    <string name="button_cancel">Cancel</string>
 
 </resources>

@@ -29,7 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.09"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/radio_group_bread">
 
             <RadioButton
                 android:layout_width="200dp"
@@ -54,7 +55,8 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:layout_weight="0.21">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -134,8 +136,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button"
+            android:text="@string/button_place_order"
+            android:id="@+id/button_place_order"
             android:layout_weight="0.03"
             android:layout_gravity="center_horizontal" />
 
