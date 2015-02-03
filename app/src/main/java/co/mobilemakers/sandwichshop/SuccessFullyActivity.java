@@ -1,16 +1,16 @@
 package co.mobilemakers.sandwichshop;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
 /**
  * Created by root on 26/01/15.
  */
-public class SuccessFullyActivity extends Activity{
+public class SuccessFullyActivity extends ActionBarActivity{
 
     private Button okButton;
     @Override
@@ -25,5 +25,9 @@ public class SuccessFullyActivity extends Activity{
                 startActivity(intent);
             }
         });
+
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+
+        setSupportActionBar(toolbar);
     }
 }

@@ -18,7 +18,8 @@
         </activity>
         <activity
             android:name=".ConfirmationActivity"
-            android:label="Confirmation" />
+            android:label="Confirmation"
+            android:theme="@style/AppTheme2"/>
 
         <activity
             android:name=".SuccessFullyActivity"
